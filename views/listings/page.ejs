@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="/style.css"> -->
+    <style>
+      body {
+        background-image: url("img.webp");
+        background-size: cover; /* Fills both width and height */
+        background-position: center; /* Centers the image */
+        background-repeat: no-repeat; /* Prevents tiling */
+        background-attachment: fixed;
+        margin: 0;
+      }
+
+      h2 {
+        display: block;
+        text-align: center;
+        position: relative;
+        top: 10rem;
+        font-size: 2.5rem;
+        color: black;
+        font-weight: 1000;
+        border: 1px solid lightblue;
+        background-color: lightblue;
+      }
+
+      button {
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto; /* Centers the button horizontally */
+        position: relative;
+        left: 0%; /* Moves the button towards the center */
+        /* transform: translateX(-70%); */
+        top: 20rem;
+        background-color: rgb(16, 219, 97);
+        /* color: white; */
+        border-radius: 3px;
+        height: 3.5rem;
+        width: 20rem;
+        border-radius: 15px;
+        border: 1px solid black;
+      }
+
+      button:hover {
+        background-color: rgb(70, 242, 139);
+        transform: scale(1.1);
+      }
+
+      a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <h2>Thanks, your Data is Submitted successfully 😍🎉</h2>
+      <button class="btn"><a href="/">Record another Feedback</a></button>
+    </form>
+  </body>
+</html>
